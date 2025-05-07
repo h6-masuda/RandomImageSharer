@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Random Image Sharer</string>
+    <string name="select_image">Select Random Image</string>
+    <string name="share_image">Share Image on Twitter</string>
+    <string name="image_preview">Image Preview</string>
+    <string name="image_deleted">Image deleted after sharing.</string>
+    <string name="error_sharing">Error sharing the image. Please try again.</string>
+</resources>
