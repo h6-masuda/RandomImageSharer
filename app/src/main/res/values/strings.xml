@@ -1,8 +1,73 @@
 <resources>
-    <string name="app_name">Random Image Sharer</string>
-    <string name="select_image">Select Random Image</string>
-    <string name="share_image">Share Image on Twitter</string>
-    <string name="image_preview">Image Preview</string>
-    <string name="image_deleted">Image deleted after sharing.</string>
-    <string name="error_sharing">Error sharing the image. Please try again.</string>
+    <string name="app_name">Random Image Viewer</string>
+    <string name="random_image_button">ランダム画像選択</string>
+    <string name="share_twitter_button">Twitterで共有</string>
+    <string name="no_images_found">選択されたフォルダに画像がありません</string>
+    <string name="twitter_not_installed">Twitterアプリがインストールされていません</string>
+    <string name="image_deleted">画像が削除されました</string>
+    <string name="error_sharing">共有中にエラーが発生しました</string>
+    <string name="delete_image">画像を削除</string>
+    <string name="image_metadata_format">"%1$sさんが%2$sに撮影した画像です"</string>
+    
+    <!-- New strings for enhanced random image selection -->
+    <string name="loading">読み込み中…</string>
+    <string name="image_selected">画像が選択されました: %1$s</string>
+    <string name="create_test_folder">テストフォルダを作成</string>
+    <string name="folder_created">テストフォルダが作成されました</string>
+    <string name="folder_creation_failed">テストフォルダの作成に失敗しました</string>
+    <string name="error_creating_folder">フォルダ作成中にエラーが発生しました</string>
+    <string name="error_selecting_image">画像選択中にエラーが発生しました</string>
+    <string name="storage_permissions_required">ストレージ権限が必要です</string>
+    
+    <!-- New strings for enhanced image preview -->
+    <string name="error_loading_image">画像の読み込み中にエラーが発生しました</string>
+    <string name="detailed_metadata_format">サイズ: %1$s\n作成日時: %2$s\n解像度: %3$s</string>
+    <string name="share_with">共有先を選択</string>
+    <string name="double_tap_to_reset">ダブルタップでズームをリセット</string>
+    <string name="pinch_to_zoom">ピンチでズーム</string>
+    
+    <!-- New strings for enhanced Twitter sharing -->
+    <string name="share_text">Random Image Viewerから共有された画像です</string>
+    <string name="sharing_to_twitter">Twitterで共有しています…</string>
+    <string name="share_with_other">他のアプリで共有</string>
+    <string name="no_image_to_share">共有する画像がありません</string>
+    <string name="share_success">画像が正常に共有されました</string>
+    <string name="preparing_to_share">共有の準備中…</string>
+    
+    <!-- New strings for enhanced image deletion -->
+    <string name="confirm_delete_title">画像の削除</string>
+    <string name="confirm_delete_message">この画像を削除してもよろしいですか？この操作は元に戻せません。</string>
+    <string name="yes">はい</string>
+    <string name="no">いいえ</string>
+    <string name="error_deleting">画像の削除中にエラーが発生しました</string>
+    <string name="retry">再試行</string>
+    <string name="no_image_to_delete">削除する画像がありません</string>
+    <string name="deleting">削除中…</string>
+    
+    <!-- New strings for enhanced error handling -->
+    <string name="invalid_image_file">無効な画像ファイルです</string>
+    <string name="no_network_connection">ネットワーク接続がありません</string>
+    <string name="network_error">ネットワークエラーが発生しました</string>
+    <string name="file_not_found">ファイルが見つかりません</string>
+    <string name="file_access_error">ファイルアクセスエラーが発生しました</string>
+    <string name="permission_denied">権限が拒否されました</string>
+    <string name="unknown_error">不明なエラーが発生しました</string>
+    
+    <!-- New strings for folder path selection -->
+    <string name="folder_path_label">画像フォルダのパス</string>
+    <string name="change_folder_button">変更</string>
+    <string name="select_folder_title">画像フォルダを選択</string>
+    <string name="folder_path_hint">フォルダパスを入力</string>
+    <string name="save">保存</string>
+    <string name="cancel">キャンセル</string>
+    <string name="folder_path_saved">フォルダパスが保存されました</string>
+    <string name="folder_path_error">フォルダパスが無効です</string>
+    <string name="settings">設定</string>
+    <string name="open_folder_picker">フォルダを選択</string>
+    <string name="folder_picker_error">フォルダ選択ダイアログを開けませんでした</string>
+    <string name="folder_selection_failed">フォルダの選択に失敗しました</string>
+    <string name="folder_permission_error">フォルダの権限エラー: %1$s</string>
+    
+    <!-- New strings for back button -->
+    <string name="back">戻る</string>
 </resources>
